@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { CounterModule } from './counter/counter.module';
 
 @NgModule({
-  declarations: [],
+  declarations: [AppComponent],//agregue esto
   imports: [BrowserModule,
     AppRoutingModule, CounterModule],
   providers: [],
