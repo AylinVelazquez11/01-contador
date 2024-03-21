@@ -7,12 +7,10 @@ import { CounterModule } from './counter/counter.module';
 
 @NgModule({
   declarations: [],
-  imports: [
-    BrowserModule,
-    AppRoutingModule, CounterModule
-  ],
+  imports: [BrowserModule,
+    AppRoutingModule, CounterModule],
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {   }
+export class AppModule {}
 /*hola*/ 
